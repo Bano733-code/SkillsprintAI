@@ -181,7 +181,7 @@ Backend:
 
 # 📂 Project Structure
 
-
+```
 
 SkillSprintAI
 │
@@ -212,7 +212,7 @@ SkillSprintAI
 ├── package.json
 └── .env
 
-
+```
 ---
 
 # ⚙️ Local Installation
