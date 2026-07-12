@@ -6,9 +6,9 @@ def analyze_resume(resume_text, target_role):
     Analyze this resume for the role of {target_role}.
 
     Provide:
-    1. Existing Skills
-    2. Missing Skills
-    3. Resume Score out of 100
+    1. Resume Score out of 100
+    2. Weknesses
+    3. Strengths
     4. Top Improvements
 
     Resume:
