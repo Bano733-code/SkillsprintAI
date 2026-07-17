@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://skillsprintai-production.up.railway.app/docs",
+  baseURL: "https://skillsprintai-production.up.railway.app",
 });
 
 export const uploadResume = async (file) => {
