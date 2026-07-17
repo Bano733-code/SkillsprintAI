@@ -1,12 +1,9 @@
 from unittest import result
-
 from fastapi import FastAPI, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 import pdfplumber
 import io
-
 from models import *
-
 from resume import analyze_resume
 from roadmap import generate_roadmap
 from interview import (
@@ -188,5 +185,7 @@ def career_chat_endpoint(data: ChatRequest):
         "success": True,
         "response": result
     }
-
+@app.get("/")
+def root():
+    return {"status": "Backend is running"}
 
